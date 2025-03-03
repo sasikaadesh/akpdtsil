@@ -396,7 +396,7 @@ p {
   border-radius: 4px;
   cursor: pointer;
   margin: 20px 10px 20px 0;
-  transition: all 0.3sease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .view-diagram-btn:hover {
@@ -446,5 +446,76 @@ p {
   }
   to {
     opacity: 1;
+  }
+}
+
+/*TECHNOLOGY STACK SECTION STYLES*/
+
+/* Ensure content is side by side */
+.tech-stack-content-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 40px; /* Adds spacing between image & text */
+}
+
+/* Left side (Image section) */
+.tech-stack-image-section {
+  flex: 1;
+  max-width: 50%; /* Image takes 40% of space */
+}
+
+.tech-stack-image-section img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px; /* Optional rounded corners */
+}
+
+/* Right side (Text + Carousel) */
+.tech-stack-text-section {
+  flex: 1;
+  max-width: 50%; /* Carousel takes 60% */
+}
+
+/* Tech Carousel */
+.tech-carousel {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.tech-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.tech-item img {
+  width: 10px; /* Adjust size */
+  height: auto;
+  margin-bottom: 10px;
+  transition: transform 0.3s;
+}
+
+.tech-item:hover {
+  transform: scale(1.1);
+}
+
+.tech-item p {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  margin: 0;
+}
+
+/* 📱 Mobile View: Stack Image & Carousel */
+@media (max-width: 768px) {
+  .tech-stack-content-wrapper {
+    flex-direction: column; /* Stack items */
+    text-align: center;
+  }
+
+  .tech-stack-image-section, .tech-stack-text-section {
+    max-width: 100%; /* Full width on mobile */
   }
 }

@@ -389,14 +389,14 @@ p {
 .view-diagram-btn {
   background-color: #087da9;
   color: #d7f5ff;
-  font-size: 18px;
+  font-size: 14px;
   font-weight: bold;
   padding: 12px 20px;
   border: none;
-  border-radius: 8px;
+  border-radius: 4px;
   cursor: pointer;
-  margin-top: 20px;
-  transition:all 0.3s ease-in-out;
+  margin: 20px 10px 20px 0;
+  transition: all 0.3sease-in-out;
 }
 
 .view-diagram-btn:hover {

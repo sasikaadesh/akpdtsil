@@ -496,6 +496,9 @@
                     <button class="view-diagram-btn" onclick="openModal()">
                       🔍View Project Architecture
                     </button>
+                    <button class="view-diagram-btn" onclick="openModalAi()">
+                      🔍View AI Solution
+                    </button>
                   </section>
                 </div>
                 <div class="hero-image animate__animated animate__fadeInRight">
@@ -519,8 +522,18 @@
               id="modalImage"
             />
           </div>
+
+                    <!-- Project Architecture Section -->
           <!-- Model for Zoomed Image -->
-          <!-- Project Architecture Section -->
+          <div class="modal" id="imageModalAi" onclick="closeModalAi()">
+            <span class="modal-close">&times;</span>
+            <img
+              src="./assets/img/portfolio/AI_Solution_Diagram.png"
+              alt="AI Solution"
+              id="modalImage"
+            />
+          </div>
+
 
           <section class="repair">
             <div class="repair-content">

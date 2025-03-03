@@ -534,3 +534,11 @@ function openModal() {
 function closeModal() {
 	document.getElementById("imageModal").style.display = "none";
 }
+
+function openModalAi() {
+	document.getElementById("imageModalAi").style.display = "flex";
+}
+
+function closeModalAi() {
+	document.getElementById("imageModalAi").style.display = "none";
+}

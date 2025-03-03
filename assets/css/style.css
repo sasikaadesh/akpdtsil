@@ -5157,3 +5157,11 @@ button.theme-controller {
   border-radius: 8px;
   font-weight: bold;
 }
+
+
+
+@media (max-width: 767px) {
+  .hide-small-screens {
+    display: none;
+  }
+}

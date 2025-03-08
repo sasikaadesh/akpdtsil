@@ -20,13 +20,13 @@ body {
 /* Typography */
 h1.project {
   font-size: 2rem !important;
-  color: #1a237e !important;
+  color: #192073 !important;
   margin-bottom: 1.5rem !important;
 }
 
 h2.project {
   font-size: 1.8rem;
-  color: #1a237e;
+  color: #192073;
   margin-bottom: 1.5rem;
 }
 
@@ -41,7 +41,7 @@ p {
 
 /* Hero Section */
 .hero {
-  padding: 40px 0;
+  padding: 10px 0 40px 0;
   background-color: #fff;
 }
 
@@ -151,7 +151,7 @@ p {
 /* Solutions Section */
 .solutions {
   padding: 80px 0;
-  background-color: #1a237e;
+  background-color: #192073;
   color: white;
 }
 
@@ -387,7 +387,7 @@ p {
 
 /* STYLES FOR THE ARCHITECTURE DIAGRAM*/
 .view-diagram-btn {
-  background-color: #087da9;
+  background-color:  #087da9;
   color: #d7f5ff;
   font-size: 14px;
   font-weight: bold;

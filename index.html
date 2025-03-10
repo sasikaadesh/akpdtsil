@@ -353,7 +353,7 @@
     <!-- Hero banner  -->
     <div class="py-10px" id="particles-js"></div>
     <section
-      class="hero-section relative pt-130px lg:pt-40 xl:pt-200px pb-10 md:pb-30px lg:pb-50px after:absolute after:top-0 after:right-0 after:w-322px after:h-308px after:blur-[150px] after:rounded-50% after:bg-gradient-circle after:-z-1 after:-mt-5% after:-mr-5% overflow-hidden">
+      class="hero-section relative pt-130px lg:pt-40 xl:pt-100px pb-10 md:pb-30px lg:pb-50px after:absolute after:top-0 after:right-0 after:w-322px after:h-308px after:blur-[150px] after:rounded-50% after:bg-gradient-circle after:-z-1 after:-mt-5% after:-mr-5% overflow-hidden">
       <!-- intro tex -->
       <!-- <div class="intro_text">
         <svg viewBox="0 0 1320 300" class="overflow-hidden">
@@ -431,44 +431,54 @@
       </div>
     </section>
     <!-- ====================================================== -->
-    <!-- About Us -->
-    <section id="team" class="pt-60px pb-30px md:pt-20 md:pb-60px lg:pt-50px bg-cream-light-color lg:pb-20">
+    <!-- About us -->
+    <section id="aboutus" class="pt-60px pb-30px md:pt-20 md:pb-60px lg:pt-50px bg-cream-light-color lg:pb-20">
       <div>
         <div class="container">
-          <div class="text-center flex flex-col items-center mb-10 md:mb-50px">
-            <h2
-              class="primary-blue text-3xl md:text-size-35 lg:text-size-40 xl:text-size-45 dark:bg-gradient-text bg-clip-text xl:leading-1.2 text-transparent mb-30px wow fadeInUp"
-              data-wow-delay=".3s">
-              <span class="bold-text">Our</span> <span class="regular-text">Vision</span>
-            </h2>
-            <p class="text-primary-color-light dark:text-body-color max-w-700px wow fadeInUp" data-wow-delay=".4s">
-              To be the catalyst of business transformation—empowering
-              organizations with AI and innovative technologies, accelerating
-              innovation, and reshaping how teams build and deliver impactful
-              solutions.
-            </p>
+          <div class="slider-container">
+            <div class="slider" id="slider">
+              <div class="slide" id="vision-slide">
+                <div class="bg-shape shape1"></div>
+                <div class="bg-shape shape2"></div>
+                <div class="slide-content">
+                  <h2
+                    class="primary-blue text-3xl md:text-size-35 lg:text-size-40 xl:text-size-45 dark:bg-gradient-text bg-clip-text xl:leading-1.2 text-transparent mb-30px wow fadeInUp"
+                    data-wow-delay=".3s">
+                    <span class="bold-text">Our</span> <span class="regular-text">Vision</span>
+                  </h2>
+                  <p class="text-primary-color-light">To be the catalyst of business transformation—empowering
+                    organizations with AI and innovative technologies, accelerating
+                    innovation, and reshaping how teams build and deliver impactful
+                    solutions.</p>
+                </div>
+              </div>
+              <div class="slide" id="mission-slide">
+                <div class="bg-shape shape1"></div>
+                <div class="bg-shape shape2"></div>
+                <div class="slide-content">
+                  <h2
+                    class="primary-blue text-3xl md:text-size-35 lg:text-size-40 xl:text-size-45 dark:bg-gradient-text bg-clip-text xl:leading-1.2 text-transparent mb-30px wow fadeInUp"
+                    data-wow-delay=".3s">
+                    <span class="bold-text">Our</span> <span class="regular-text">Mission</span>
+                  </h2>
+                  <p class="text-primary-color-light">We harness next-generation AI, Data Science, and other
+                    cutting-edge technologies to: Develop transformative tools that
+                    streamline development and delivery. Enable business development
+                    teams to showcase real-time demos for clients. Provide expert
+                    guidance that helps businesses effectively leverage emerging
+                    technologies for sustainable growth.</p>
+                </div>
+              </div>
+            </div>
           </div>
-          <!-- section heading -->
-          <div class="text-center flex flex-col items-center mb-2 md:mb-10px">
-            <!-- <h2
-              class="text-3xl md:text-size-35 lg:text-size-40 xl:text-size-45 bg-gradient-text-light dark:bg-gradient-text bg-clip-text xl:leading-1.2 text-transparent mb-15px wow fadeInUp"
-              data-wow-delay=".3s">
-              Our Mission
-            </h2> -->
-            <h2
-              class="primary-blue text-3xl md:text-size-35 lg:text-size-40 xl:text-size-45 dark:bg-gradient-text
-              bg-clip-text xl:leading-1.2 text-transparent mb-30px wow fadeInUp"
-              data-wow-delay=".3s" >
-              <span class="bold-text">Our</span> <span class="regular-text">Mission</span>
-            </h2>
-            <p class="text-primary-color-light dark:text-body-color max-w-700px wow fadeInUp" data-wow-delay=".4s">
-              We harness next-generation AI, Data Science, and other
-              cutting-edge technologies to: Develop transformative tools that
-              streamline development and delivery. Enable business development
-              teams to showcase real-time demos for clients. Provide expert
-              guidance that helps businesses effectively leverage emerging
-              technologies for sustainable growth.
-            </p>
+
+          <div class="navigation">
+            <div class="dot active" data-slide="0">
+              <div class="title-label">Vision</div>
+            </div>
+            <div class="dot" data-slide="1">
+              <div class="title-label">Mission</div>
+            </div>
           </div>
         </div>
       </div>
@@ -481,9 +491,9 @@
           <!-- section heading -->
           <div class="text-center flex flex-col items-center mb-10 md:mb-50px">
             <h2
-              class="text-3xl md:text-size-35 lg:text-size-40 xl:text-size-45 bg-gradient-text-light dark:bg-gradient-text bg-clip-text xl:leading-1.2 text-transparent mb-15px wow fadeInUp"
+              class="primary-blue text-3xl md:text-size-35 lg:text-size-40 xl:text-size-45 dark:bg-gradient-text bg-clip-text xl:leading-1.2 text-transparent mb-30px wow fadeInUp"
               data-wow-delay=".3s">
-              Featured Innovations
+              <span class="bold-text">Featured</span> <span class="regular-text">Innovations</span>
             </h2>
             <p class="text-primary-color-light dark:text-body-color max-w-700px wow fadeInUp" data-wow-delay=".4s">
               Discover our pioneering AI solutions that combine strategic
@@ -523,13 +533,13 @@
               <div class="portfolio-sizer"></div>
               <div class="gutter-sizer"></div>
               <div
-                class="portfolio-item business branding bg-primary-color-blue px-15px pt-25px pb-0 lg:p-9 lg:pb-0 rounded-10px group relative float-left inline-flex">
+                class="portfolio-item business branding bg-primary-color-blue px-15px pt-25px pb-0 lg:p-9 lg:pb-0 group relative float-left inline-flex">
                 <img src="./assets/img/portfolio/5.jpg" alt="" />
                 <div
                   class="absolute left-0 bottom-[35px] translate-y-5 opacity-100 px-15px lg:px-5 transition-all duration-300">
                   <a href="project-central-document-repo.html"
-                    class="text-white-color p-15px pr-30px lg:p-5 lg:pr-50px bg-gradient-primary-innovations rounded-10px w-full">
-                    <span class="block text-xl md:text-size-25 lg:text-3xl font-bold mb-2 lg:mb-15px">
+                    class="text-white-color p-15px pr-30px lg:p-5 lg:pr-50px bg-gradient-primary-innovations w-full">
+                    <span class="block text-xl md:text-size-25 lg:text-3xl mb-2 lg:mb-15px">
                       Central Document Repo
                     </span>
 
@@ -548,13 +558,13 @@
                 </div>
               </div>
               <div
-                class="portfolio-item business branding bg-primary-color-blue px-15px pt-25px pb-0 lg:p-9 lg:pb-0 rounded-10px group relative float-left inline-flex">
+                class="portfolio-item business branding bg-primary-color-blue px-15px pt-25px pb-0 lg:p-9 lg:pb-0 group relative float-left inline-flex">
                 <img src="./assets/img/portfolio/1.jpg" alt="" />
                 <div
                   class="absolute left-0 bottom-[35px] translate-y-5 opacity-100 px-15px lg:px-5 transition-all duration-300">
                   <a href="project-dealVision-analytics.html"
-                    class="text-white-color p-15px pr-30px lg:p-5 lg:pr-50px bg-gradient-primary-innovations rounded-10px w-full">
-                    <span class="block text-xl md:text-size-25 lg:text-3xl font-bold mb-2 lg:mb-15px">
+                    class="text-white-color p-15px pr-30px lg:p-5 lg:pr-50px bg-gradient-primary-innovations w-full">
+                    <span class="block text-xl md:text-size-25 lg:text-3xl mb-2 lg:mb-15px">
                       DealVision Analytics
                     </span>
 
@@ -573,13 +583,13 @@
                 </div>
               </div>
               <div
-                class="portfolio-item business branding bg-primary-color-blue px-15px pt-25px pb-0 lg:p-9 lg:pb-0 rounded-10px group relative float-left inline-flex">
+                class="portfolio-item business branding bg-primary-color-blue px-15px pt-25px pb-0 lg:p-9 lg:pb-0 group relative float-left inline-flex">
                 <img src="./assets/img/portfolio/6.jpg" alt="" />
                 <div
                   class="absolute left-0 bottom-[35px] translate-y-5 opacity-100 px-15px lg:px-5 transition-all duration-300">
                   <a href="project-loan-insight-extractor.html"
-                    class="text-white-color p-15px pr-30px lg:p-5 lg:pr-50px bg-gradient-primary-innovations rounded-10px w-full">
-                    <span class="block text-xl md:text-size-25 lg:text-3xl font-bold mb-2 lg:mb-15px">
+                    class="text-white-color p-15px pr-30px lg:p-5 lg:pr-50px bg-gradient-primary-innovations w-full">
+                    <span class="block text-xl md:text-size-25 lg:text-3xl mb-2 lg:mb-15px">
                       Loan Insight Extractor
                     </span>
 
@@ -598,13 +608,13 @@
                 </div>
               </div>
               <div
-                class="portfolio-item technology bg-primary-color-blue px-15px pt-25px pb-0 lg:p-9 lg:pb-0 rounded-10px group relative float-left inline-flex">
+                class="portfolio-item technology bg-primary-color-blue px-15px pt-25px pb-0 lg:p-9 lg:pb-0 group relative float-left inline-flex">
                 <img src="./assets/img/portfolio/2.jpg" alt="" />
                 <div
                   class="absolute left-0 bottom-[35px] translate-y-5 opacity-100 px-15px lg:px-5 transition-all duration-300">
                   <a href="project-benchmark-for-llms.html"
-                    class="text-white-color p-15px pr-30px lg:p-5 lg:pr-50px bg-gradient-primary-innovations rounded-10px w-full">
-                    <span class="block text-xl md:text-size-25 lg:text-3xl font-bold mb-2 lg:mb-15px">
+                    class="text-white-color p-15px pr-30px lg:p-5 lg:pr-50px bg-gradient-primary-innovations w-full">
+                    <span class="block text-xl md:text-size-25 lg:text-3xl mb-2 lg:mb-15px">
                       Benchmark for LLMs
                     </span>
 
@@ -623,13 +633,13 @@
                 </div>
               </div>
               <div
-                class="portfolio-item technology bg-primary-color-blue px-15px pt-25px pb-0 lg:p-9 lg:pb-0 rounded-10px group relative float-left inline-flex">
+                class="portfolio-item technology bg-primary-color-blue px-15px pt-25px pb-0 lg:p-9 lg:pb-0 group relative float-left inline-flex">
                 <img src="./assets/img/portfolio/3.jpg" alt="" />
                 <div
                   class="absolute left-0 bottom-[35px] translate-y-5 opacity-100 px-15px lg:px-5 transition-all duration-300">
                   <a href="project-queryvision-ai.html"
-                    class="text-white-color p-15px pr-30px lg:p-5 lg:pr-50px bg-gradient-primary-innovations rounded-10px w-full">
-                    <span class="block text-xl md:text-size-25 lg:text-3xl font-bold mb-2 lg:mb-15px">
+                    class="text-white-color p-15px pr-30px lg:p-5 lg:pr-50px bg-gradient-primary-innovations w-full">
+                    <span class="block text-xl md:text-size-25 lg:text-3xl mb-2 lg:mb-15px">
                       QueryVision AI
                     </span>
 
@@ -647,13 +657,13 @@
                 </div>
               </div>
               <div
-                class="portfolio-item technology branding bg-primary-color-blue px-15px pt-25px pb-0 lg:p-9 lg:pb-0 rounded-10px group relative float-left inline-flex">
+                class="portfolio-item technology branding bg-primary-color-blue px-15px pt-25px pb-0 lg:p-9 lg:pb-0 group relative float-left inline-flex">
                 <img src="./assets/img/portfolio/7.jpg" alt="" />
                 <div
                   class="absolute left-0 bottom-[35px] translate-y-5 opacity-100 px-15px lg:px-5 transition-all duration-300">
                   <a href="project-charting-accelerator.html"
-                    class="text-white-color p-15px pr-30px lg:p-5 lg:pr-50px bg-gradient-primary-innovations rounded-10px w-full">
-                    <span class="block text-xl md:text-size-25 lg:text-3xl font-bold mb-2 lg:mb-15px">
+                    class="text-white-color p-15px pr-30px lg:p-5 lg:pr-50px bg-gradient-primary-innovations w-full">
+                    <span class="block text-xl md:text-size-25 lg:text-3xl mb-2 lg:mb-15px">
                       Charting Accelerator
                     </span>
 
@@ -682,9 +692,9 @@
         <!-- section heading -->
         <div class="text-center flex flex-col items-center mb-10 md:mb-50px">
           <h2
-            class="text-3xl md:text-size-35 lg:text-size-40 xl:text-size-45 bg-gradient-text-light dark:bg-gradient-text bg-clip-text xl:leading-1.2 text-transparent mb-15px wow fadeInUp"
+            class="primary-blue text-3xl md:text-size-35 lg:text-size-40 xl:text-size-45 dark:bg-gradient-text bg-clip-text xl:leading-1.2 text-transparent mb-30px wow fadeInUp"
             data-wow-delay=".3s">
-            Our Team
+            <span class="bold-text">Our</span> <span class="regular-text">Team</span>
           </h2>
           <p class="text-primary-color-light dark:text-body-color max-w-700px wow fadeInUp" data-wow-delay=".4s">
             Meet our exceptional team of advisors and professionals driving
@@ -701,7 +711,7 @@
           <div class="grid grid-cols-1 md:grid-cols-2 gap-30px">
             <!-- Advisor 1 -->
             <div
-              class="bg-white-color dark:bg-primary-color-light rounded-15px p-25px transition-all duration-300 group wow fadeInUp"
+              class="bg-white-color dark:bg-primary-color-light bx-shdw rounded-8px p-25px transition-all duration-300 group wow fadeInUp"
               data-wow-delay=".4s">
               <div class="flex flex-col sm:flex-row items-start gap-25px">
                 <div style="
@@ -732,7 +742,7 @@
 
             <!-- Advisor 2 -->
             <div
-              class="bg-white-color dark:bg-primary-color-light rounded-15px p-25px transition-all duration-300 group wow fadeInUp"
+              class="bg-white-color dark:bg-primary-color-light bx-shdw rounded-8px p-25px transition-all duration-300 group wow fadeInUp"
               data-wow-delay=".5s">
               <div class="flex flex-col sm:flex-row items-start gap-25px">
                 <div style="
@@ -765,7 +775,7 @@
           <div class="grid grid-cols-1 md:grid-cols-2 gap-30px mt-30px">
             <!-- Advisor 3 -->
             <div
-              class="bg-white-color dark:bg-primary-color-light rounded-15px p-25px transition-all duration-300 group wow fadeInUp"
+              class="bg-white-color dark:bg-primary-color-light bx-shdw rounded-8px p-25px transition-all duration-300 group wow fadeInUp"
               data-wow-delay=".4s">
               <div class="flex flex-col sm:flex-row items-start gap-25px">
                 <div style="
@@ -798,7 +808,7 @@
 
             <!-- Advisor 4 -->
             <div
-              class="bg-white-color dark:bg-primary-color-light rounded-15px p-25px transition-all duration-300 group wow fadeInUp"
+              class="bg-white-color dark:bg-primary-color-light bx-shdw rounded-8px p-25px transition-all duration-300 group wow fadeInUp"
               data-wow-delay=".5s">
               <div class="flex flex-col sm:flex-row items-start gap-25px">
                 <div style="
@@ -842,7 +852,7 @@
           <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-30px">
             <!-- Team Member 1 -->
             <div
-              class="bg-white-color dark:bg-primary-color-light rounded-15px p-25px transition-all duration-300 group wow fadeInUp"
+              class="bg-white-color dark:bg-primary-color-light bx-shdw rounded-8px p-25px transition-all duration-300 group wow fadeInUp"
               data-wow-delay=".4s">
               <div class="flex flex-col items-center text-center">
                 <div style="
@@ -872,7 +882,7 @@
 
             <!-- Team Member 2 -->
             <div
-              class="bg-white-color dark:bg-primary-color-light rounded-15px p-25px transition-all duration-300 group wow fadeInUp"
+              class="bg-white-color dark:bg-primary-color-light bx-shdw rounded-8px p-25px transition-all duration-300 group wow fadeInUp"
               data-wow-delay=".6s">
               <div class="flex flex-col items-center text-center">
                 <div style="
@@ -900,7 +910,7 @@
 
             <!-- Team Member 3 -->
             <div
-              class="bg-white-color dark:bg-primary-color-light rounded-15px p-25px transition-all duration-300 group wow fadeInUp"
+              class="bg-white-color dark:bg-primary-color-light bx-shdw rounded-8px p-25px transition-all duration-300 group wow fadeInUp"
               data-wow-delay=".5s">
               <div class="flex flex-col items-center text-center">
                 <div style="
@@ -929,7 +939,7 @@
 
             <!-- Team Member 4 -->
             <div
-              class="bg-white-color dark:bg-primary-color-light rounded-15px p-25px transition-all duration-300 group wow fadeInUp"
+              class="bg-white-color dark:bg-primary-color-light bx-shdw rounded-8px p-25px transition-all duration-300 group wow fadeInUp"
               data-wow-delay=".7s">
               <div class="flex flex-col items-center text-center">
                 <div style="
@@ -960,7 +970,7 @@
           <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-30px mt-30px">
             <!-- Team Member 5 -->
             <div
-              class="bg-white-color dark:bg-primary-color-light rounded-15px p-25px transition-all duration-300 group wow fadeInUp"
+              class="bg-white-color dark:bg-primary-color-light bx-shdw rounded-8px p-25px transition-all duration-300 group wow fadeInUp"
               data-wow-delay=".4s">
               <div class="flex flex-col items-center text-center">
                 <div style="
@@ -989,7 +999,7 @@
 
             <!-- Team Member 6 -->
             <div
-              class="bg-white-color dark:bg-primary-color-light rounded-15px p-25px transition-all duration-300 group wow fadeInUp"
+              class="bg-white-color dark:bg-primary-color-light bx-shdw rounded-8px p-25px transition-all duration-300 group wow fadeInUp"
               data-wow-delay=".6s">
               <div class="flex flex-col items-center text-center">
                 <div style="
@@ -1017,7 +1027,7 @@
 
             <!-- Team Member 7 -->
             <div
-              class="bg-white-color dark:bg-primary-color-light rounded-15px p-25px transition-all duration-300 group wow fadeInUp"
+              class="bg-white-color dark:bg-primary-color-light bx-shdw rounded-8px p-25px transition-all duration-300 group wow fadeInUp"
               data-wow-delay=".7s">
               <div class="flex flex-col items-center text-center">
                 <div style="
@@ -1046,7 +1056,7 @@
 
             <!-- Team Member 8 -->
             <div
-              class="bg-white-color dark:bg-primary-color-light rounded-15px p-25px transition-all duration-300 group wow fadeInUp"
+              class="bg-white-color dark:bg-primary-color-light bx-shdw rounded-8px p-25px transition-all duration-300 group wow fadeInUp"
               data-wow-delay=".5s">
               <div class="flex flex-col items-center text-center">
                 <div style="
@@ -1078,13 +1088,14 @@
     <!-- ====================================================== -->
     <!-- Skills -->
     <section id="skills">
-      <div class="pt-60px pb-60px md:pt-20 md:pb-60px lg:pt-100px lg:pb-20">
+      <div class="pt-30px pb-60px md:pt-20 md:pb-60px lg:pt-30px lg:pb-20">
         <div class="container">
           <!-- section heading -->
           <div class="text-center flex flex-col items-center mb-10 md:mb-50px">
             <h2
-              class="text-3xl md:text-size-35 lg:text-size-40 xl:text-size-45 bg-gradient-text-light dark:bg-gradient-text bg-clip-text xl:leading-1.2 text-transparent mb-15px">
-              Core Competencies
+              class="primary-blue text-3xl md:text-size-35 lg:text-size-40 xl:text-size-45 dark:bg-gradient-text bg-clip-text xl:leading-1.2 text-transparent mb-30px wow fadeInUp"
+              data-wow-delay=".3s">
+              <span class="bold-text">Core</span> <span class="regular-text">Competencies</span>
             </h2>
             <p class="text-primary-color-light dark:text-body-color max-w-700px">
               Our team excels in machine learning, natural language
@@ -1098,7 +1109,7 @@
               <div class="max-w-180px w-full group wow fadeInUp" data-wow-delay=".3s">
                 <!-- contents -->
                 <div
-                  class="flex flex-col items-center py-25px px-15px md:pt-30px 2xl:pt-10 2xl:mb-30px rounded-25px bg-cream-light-color dark:bg-primary-color-light border border-transparent group-hover:border-primary-color group-hover:bg-seondary-color transition-all duration-500 mb-15px">
+                  class="flex flex-col items-center py-25px px-15px md:pt-30px 2xl:pt-10 2xl:mb-30px rounded-10px bg-cream-light-color dark:bg-primary-color-light border border-transparent group-hover:border-primary-color group-hover:bg-seondary-color transition-all duration-500 mb-15px">
                   <div class="mb-5 md:mb-30px mx-9 2xl:mx-44px w-60px flex flex-col justify-center items-center">
                     <img
                       class="grayscale-[90%] group-hover:grayscale-0 transition-all duration-500 group-hover:scale-110 opacity-50 group-hover:opacity-100 w-60px"
@@ -1111,7 +1122,7 @@
               <div class="max-w-180px w-full group wow fadeInUp" data-wow-delay=".4s">
                 <!-- contents -->
                 <div
-                  class="flex flex-col items-center py-25px px-15px md:pt-30px 2xl:pt-10 2xl:mb-30px rounded-25px bg-cream-light-color dark:bg-primary-color-light border border-transparent group-hover:border-primary-color group-hover:bg-seondary-color transition-all duration-500 mb-15px">
+                  class="flex flex-col items-center py-25px px-15px md:pt-30px 2xl:pt-10 2xl:mb-30px rounded-10px bg-cream-light-color dark:bg-primary-color-light border border-transparent group-hover:border-primary-color group-hover:bg-seondary-color transition-all duration-500 mb-15px">
                   <div class="mb-5 md:mb-30px mx-9 2xl:mx-44px w-60px flex flex-col justify-center items-center">
                     <img
                       class="grayscale-[90%] group-hover:grayscale-0 transition-all duration-500 group-hover:scale-110 opacity-50 group-hover:opacity-100 w-60px"
@@ -1124,7 +1135,7 @@
               <div class="max-w-180px w-full group wow fadeInUp" data-wow-delay=".5s">
                 <!-- contents -->
                 <div
-                  class="flex flex-col items-center py-25px px-15px md:pt-30px 2xl:pt-10 2xl:mb-30px rounded-25px bg-cream-light-color dark:bg-primary-color-light border border-transparent group-hover:border-primary-color group-hover:bg-seondary-color transition-all duration-500 mb-15px">
+                  class="flex flex-col items-center py-25px px-15px md:pt-30px 2xl:pt-10 2xl:mb-30px rounded-10px bg-cream-light-color dark:bg-primary-color-light border border-transparent group-hover:border-primary-color group-hover:bg-seondary-color transition-all duration-500 mb-15px">
                   <div class="mb-5 md:mb-30px mx-9 2xl:mx-44px w-60px flex flex-col justify-center items-center">
                     <img
                       class="grayscale-[90%] group-hover:grayscale-0 transition-all duration-500 group-hover:scale-110 opacity-50 group-hover:opacity-100 w-60px"
@@ -1137,7 +1148,7 @@
               <div class="max-w-180px w-full group wow fadeInUp" data-wow-delay=".6s">
                 <!-- contents -->
                 <div
-                  class="flex flex-col items-center py-25px px-15px md:pt-30px 2xl:pt-10 2xl:mb-30px rounded-25px bg-cream-light-color dark:bg-primary-color-light border border-transparent group-hover:border-primary-color group-hover:bg-seondary-color transition-all duration-500 mb-15px">
+                  class="flex flex-col items-center py-25px px-15px md:pt-30px 2xl:pt-10 2xl:mb-30px rounded-10px bg-cream-light-color dark:bg-primary-color-light border border-transparent group-hover:border-primary-color group-hover:bg-seondary-color transition-all duration-500 mb-15px">
                   <div class="mb-5 md:mb-30px mx-9 2xl:mx-44px w-60px flex flex-col justify-center items-center">
                     <img
                       class="grayscale-[90%] group-hover:grayscale-0 transition-all duration-500 group-hover:scale-110 opacity-50 group-hover:opacity-100 w-60px"
@@ -1150,7 +1161,7 @@
               <div class="max-w-180px w-full group wow fadeInUp" data-wow-delay=".7s">
                 <!-- contents -->
                 <div
-                  class="flex flex-col items-center py-25px px-15px md:pt-30px 2xl:pt-10 2xl:mb-30px rounded-25px bg-cream-light-color dark:bg-primary-color-light border border-transparent group-hover:border-primary-color group-hover:bg-seondary-color transition-all duration-500 mb-15px">
+                  class="flex flex-col items-center py-25px px-15px md:pt-30px 2xl:pt-10 2xl:mb-30px rounded-10px bg-cream-light-color dark:bg-primary-color-light border border-transparent group-hover:border-primary-color group-hover:bg-seondary-color transition-all duration-500 mb-15px">
                   <div class="mb-5 md:mb-30px mx-9 2xl:mx-44px w-60px flex flex-col justify-center items-center">
                     <img
                       class="grayscale-[90%] group-hover:grayscale-0 transition-all duration-500 group-hover:scale-110 opacity-50 group-hover:opacity-100 w-60px"
@@ -1163,7 +1174,7 @@
               <div class="max-w-180px w-full group wow fadeInUp" data-wow-delay=".8s">
                 <!-- contents -->
                 <div
-                  class="flex flex-col items-center py-25px px-15px md:pt-30px 2xl:pt-10 2xl:mb-30px rounded-25px bg-cream-light-color dark:bg-primary-color-light border border-transparent group-hover:border-primary-color group-hover:bg-seondary-color transition-all duration-500 mb-15px">
+                  class="flex flex-col items-center py-25px px-15px md:pt-30px 2xl:pt-10 2xl:mb-30px rounded-10px bg-cream-light-color dark:bg-primary-color-light border border-transparent group-hover:border-primary-color group-hover:bg-seondary-color transition-all duration-500 mb-15px">
                   <div class="mb-5 md:mb-30px mx-9 2xl:mx-44px w-60px flex flex-col justify-center items-center">
                     <img
                       class="grayscale-[90%] group-hover:grayscale-0 transition-all duration-500 group-hover:scale-110 opacity-50 group-hover:opacity-100 w-60px"
@@ -1176,7 +1187,7 @@
               <div class="max-w-180px w-full group wow fadeInUp" data-wow-delay=".7s">
                 <!-- contents -->
                 <div
-                  class="flex flex-col items-center py-25px px-15px md:pt-30px 2xl:pt-10 2xl:mb-30px rounded-25px bg-cream-light-color dark:bg-primary-color-light border border-transparent group-hover:border-primary-color group-hover:bg-seondary-color transition-all duration-500 mb-15px">
+                  class="flex flex-col items-center py-25px px-15px md:pt-30px 2xl:pt-10 2xl:mb-30px rounded-10px bg-cream-light-color dark:bg-primary-color-light border border-transparent group-hover:border-primary-color group-hover:bg-seondary-color transition-all duration-500 mb-15px">
                   <div class="mb-5 md:mb-30px mx-9 2xl:mx-44px w-60px flex flex-col justify-center items-center">
                     <img
                       class="grayscale-[90%] group-hover:grayscale-0 transition-all duration-500 group-hover:scale-110 opacity-50 group-hover:opacity-100 w-60px"
@@ -1189,7 +1200,7 @@
               <div class="max-w-180px w-full group wow fadeInUp" data-wow-delay=".8s">
                 <!-- contents -->
                 <div
-                  class="flex flex-col items-center py-25px px-15px md:pt-30px 2xl:pt-10 2xl:mb-30px rounded-25px bg-cream-light-color dark:bg-primary-color-light border border-transparent group-hover:border-primary-color group-hover:bg-seondary-color transition-all duration-500 mb-15px">
+                  class="flex flex-col items-center py-25px px-15px md:pt-30px 2xl:pt-10 2xl:mb-30px rounded-10px bg-cream-light-color dark:bg-primary-color-light border border-transparent group-hover:border-primary-color group-hover:bg-seondary-color transition-all duration-500 mb-15px">
                   <div class="mb-5 md:mb-30px mx-9 2xl:mx-44px w-60px flex flex-col justify-center items-center">
                     <img
                       class="grayscale-[90%] group-hover:grayscale-0 transition-all duration-500 group-hover:scale-110 opacity-50 group-hover:opacity-100 w-60px"
@@ -1202,7 +1213,7 @@
               <div class="max-w-180px w-full group wow fadeInUp" data-wow-delay=".7s">
                 <!-- contents -->
                 <div
-                  class="flex flex-col items-center py-25px px-15px md:pt-30px 2xl:pt-10 2xl:mb-30px rounded-25px bg-cream-light-color dark:bg-primary-color-light border border-transparent group-hover:border-primary-color group-hover:bg-seondary-color transition-all duration-500 mb-15px">
+                  class="flex flex-col items-center py-25px px-15px md:pt-30px 2xl:pt-10 2xl:mb-30px rounded-10px bg-cream-light-color dark:bg-primary-color-light border border-transparent group-hover:border-primary-color group-hover:bg-seondary-color transition-all duration-500 mb-15px">
                   <div class="mb-5 md:mb-30px mx-9 2xl:mx-44px w-60px flex flex-col justify-center items-center">
                     <img
                       class="grayscale-[90%] group-hover:grayscale-0 transition-all duration-500 group-hover:scale-110 opacity-50 group-hover:opacity-100 w-60px"
@@ -1215,7 +1226,7 @@
               <div class="max-w-180px w-full group wow fadeInUp" data-wow-delay=".8s">
                 <!-- contents -->
                 <div
-                  class="flex flex-col items-center py-25px px-15px md:pt-30px 2xl:pt-10 2xl:mb-30px rounded-25px bg-cream-light-color dark:bg-primary-color-light border border-transparent group-hover:border-primary-color group-hover:bg-seondary-color transition-all duration-500 mb-15px">
+                  class="flex flex-col items-center py-25px px-15px md:pt-30px 2xl:pt-10 2xl:mb-30px rounded-10px bg-cream-light-color dark:bg-primary-color-light border border-transparent group-hover:border-primary-color group-hover:bg-seondary-color transition-all duration-500 mb-15px">
                   <div class="mb-5 md:mb-30px mx-9 2xl:mx-44px w-60px flex flex-col justify-center items-center">
                     <img
                       class="grayscale-[90%] group-hover:grayscale-0 transition-all duration-500 group-hover:scale-110 opacity-50 group-hover:opacity-100 w-60px"
@@ -1232,16 +1243,16 @@
     <!-- ====================================================== -->
     <!-- Testimonials -->
     <section id="testimonials">
-      <div class="bg-cream-light-color dark:bg-black-color py-60px md:py-20 lg:py-30">
+      <div class="bg-cream-light-color dark:bg-black-color py-30px md:py-20 lg:py-20">
         <div class="container">
           <div class="testimonials grid lg:grid-cols-12 gap-6">
             <!-- section heading -->
             <div class="lg:col-start-1 lg:col-span-5">
               <div class="mb-5 md:mb-50px text-center lg:text-start wow fadeInUp" data-wow-delay=".3s">
                 <h2
-                  class="text-3xl md:text-size-35 lg:text-size-40 xl:text-size-45 bg-gradient-text-light dark:bg-gradient-text bg-clip-text xl:leading-1.2 text-transparent mb-15px wow fadeInLeft"
+                  class="primary-blue text-3xl md:text-size-35 lg:text-size-40 xl:text-size-45 dark:bg-gradient-text bg-clip-text xl:leading-1.2 text-transparent mb-30px wow fadeInUp"
                   data-wow-delay=".3s">
-                  Testimonials
+                  <span class="bold-text">Testimonials</span>
                 </h2>
                 <p class="text-primary-color-light dark:text-body-color wow fadeInLeft" data-wow-delay=".4s">
                   Read testimonials from our clients who have benefited from
@@ -1253,7 +1264,7 @@
             <div class="lg:col-start-6 xl:col-start-7 lg:col-span-7 xl:col-span-6 wow fadeInRight overflow-hidden"
               data-wow-delay=".5s">
               <div class="owl-carousel testimonial-carousel">
-                <div class="p-25px bg-white-color dark:bg-primary-color-light rounded-15px relative z-0 group">
+                <div class="p-25px bg-white-color dark:bg-primary-color-light rounded-10px relative z-0 group">
                   <div class="flex justify-between gap-30px mb-5">
                     <div class="max-w-100px">
                       <img src="./assets/img/testimonials/logo/uoc-logo.png" alt="" class="!hidden dark:!block" />
@@ -1306,7 +1317,7 @@
                     </p>
                   </div>
                 </div>
-                <div class="p-25px bg-white-color dark:bg-primary-color-light rounded-15px relative z-0 group">
+                <div class="p-25px bg-white-color dark:bg-primary-color-light rounded-10px relative z-0 group">
                   <div class="flex justify-between gap-30px mb-5">
                     <div class="max-w-100px">
                       <img src="./assets/img/testimonials/logo/acuity.png" alt="" class="!hidden dark:!block" />
@@ -1361,7 +1372,7 @@
                     </p>
                   </div>
                 </div>
-                <div class="p-25px bg-white-color dark:bg-primary-color-light rounded-15px relative z-0 group">
+                <div class="p-25px bg-white-color dark:bg-primary-color-light rounded-10px relative z-0 group">
                   <div class="flex justify-between gap-30px mb-5">
                     <div class="max-w-100px">
                       <img src="./assets/img/testimonials/logo/uoc-logo.png" alt="" class="!hidden dark:!block" />
@@ -1414,7 +1425,7 @@
                     </p>
                   </div>
                 </div>
-                <div class="p-25px bg-white-color dark:bg-primary-color-light rounded-15px relative z-0 group">
+                <div class="p-25px bg-white-color dark:bg-primary-color-light rounded-10px relative z-0 group">
                   <div class="flex justify-between gap-30px mb-5">
                     <div class="max-w-100px">
                       <img src="./assets/img/testimonials/logo/acuity.png" alt="" class="!hidden dark:!block" />
@@ -1478,14 +1489,14 @@
     <!-- ====================================================== -->
     <!-- Research -->
     <section>
-      <div id="research" class="py-60px md:py-20 lg:py-100px xl:py-30">
+      <div id="research" class="py-30px md:py-20 lg:py-30px xl:py-20">
         <div class="container">
           <!-- section heading -->
           <div class="text-center flex flex-col items-center mb-10 md:mb-50px">
             <h2
-              class="text-3xl md:text-size-35 lg:text-size-40 xl:text-size-45 bg-gradient-text-light dark:bg-gradient-text bg-clip-text xl:leading-1.2 text-transparent mb-15px wow fadeInUp"
+              class="primary-blue text-3xl md:text-size-35 lg:text-size-40 xl:text-size-45 dark:bg-gradient-text bg-clip-text xl:leading-1.2 text-transparent mb-30px wow fadeInUp"
               data-wow-delay=".3s">
-              Our Research
+              <span class="bold-text">Our</span> <span class="regular-text">Research</span>
             </h2>
             <p class="text-primary-color-light dark:text-body-color max-w-700px wow fadeInUp" data-wow-delay=".4s">
               Exploring the Future with AI and Data Science – Innovative
@@ -1684,74 +1695,74 @@
 
   <footer class="footer">
     <div class="footer-wrapper">
-        <div class="footer-top">
-            <div class="footer-logo">
-              <a href="index.html">
-                <img src="./assets/img/logo/Acuity-logo-homepage-footer.png" alt="Acuity Innovation Labs"
-                  class="w-full" />
+      <div class="footer-top">
+        <div class="footer-logo">
+          <a href="index.html">
+            <img src="./assets/img/logo/Acuity-logo-homepage-footer.png" alt="Acuity Innovation Labs" class="w-full" />
+          </a>
+        </div>
+        <nav class="footer-menu">
+          <ul class="nav flex flex-wrap">
+            <li class="nav_item group relative">
+              <a href="index.html"
+                class="text-size-14 font-medium text-white-color capitalize py-10px md:py-15px lg:py-25px 2xl:py-30px relative z-0 after:w-0 after:h-0.5 after:bg-gradient-primary after:absolute after:right-0 hover:after:left-0 after:bottom-[10px] md:after:bottom-[15px] lg:after:bottom-[25px] after:transition-all after:duration-500 group-hover:after:w-full">
+                Home
               </a>
-            </div>
-            <nav class="footer-menu">
-              <ul class="nav flex flex-wrap">
-                <li class="nav_item group relative">
-                  <a href="index.html"
-                    class="text-size-14 font-medium text-white-color capitalize py-10px md:py-15px lg:py-25px 2xl:py-30px relative z-0 after:w-0 after:h-0.5 after:bg-gradient-primary after:absolute after:right-0 hover:after:left-0 after:bottom-[10px] md:after:bottom-[15px] lg:after:bottom-[25px] after:transition-all after:duration-500 group-hover:after:w-full">
-                    Home
-                  </a>
-                </li>
-                <li class="nav_item group relative">
-                  <a href="#aboutus"
-                    class="text-size-14 font-medium text-white-color capitalize py-10px md:py-15px lg:py-25px 2xl:py-30px relative z-0 after:w-0 after:h-0.5 after:bg-gradient-primary after:absolute after:right-0 hover:after:left-0 after:bottom-[10px] md:after:bottom-[15px] lg:after:bottom-[25px] after:transition-all after:duration-500 group-hover:after:w-full">
-                    About Us
-                  </a>
-                </li>
-                <li class="nav_item group relative">
-                  <a href="#innovations"
-                    class="text-size-14 font-medium text-white-color capitalize py-10px md:py-15px lg:py-25px 2xl:py-30px relative z-0 after:w-0 after:h-0.5 after:bg-gradient-primary after:absolute after:right-0 hover:after:left-0 after:bottom-[10px] md:after:bottom-[15px] lg:after:bottom-[25px] after:transition-all after:duration-500 group-hover:after:w-full">
-                    Innovations
-                  </a>
-                </li>
-                <li class="nav_item group relative">
-                  <a href="#team"
-                    class="text-size-14 font-medium text-white-color capitalize py-10px md:py-15px lg:py-25px 2xl:py-30px relative z-0 after:w-0 after:h-0.5 after:bg-gradient-primary after:absolute after:right-0 hover:after:left-0 after:bottom-[10px] md:after:bottom-[15px] lg:after:bottom-[25px] after:transition-all after:duration-500 group-hover:after:w-full">
-                    Team
-                  </a>
-                </li>
-                <li class="nav_item group relative">
-                  <a href="#skills"
-                    class="text-size-14 font-medium text-white-color capitalize py-10px md:py-15px lg:py-25px 2xl:py-30px relative z-0 after:w-0 after:h-0.5 after:bg-gradient-primary after:absolute after:right-0 hover:after:left-0 after:bottom-[10px] md:after:bottom-[15px] lg:after:bottom-[25px] after:transition-all after:duration-500 group-hover:after:w-full">
-                    Skills
-                  </a>
-                </li>
-                <li class="nav_item group relative">
-                  <a href="#testimonials"
-                    class="text-size-14 font-medium text-white-color capitalize py-10px md:py-15px lg:py-25px 2xl:py-30px relative z-0 after:w-0 after:h-0.5 after:bg-gradient-primary after:absolute after:right-0 hover:after:left-0 after:bottom-[10px] md:after:bottom-[15px] lg:after:bottom-[25px] after:transition-all after:duration-500 group-hover:after:w-full">
-                    Testimonials
-                  </a>
-                </li>
-                <li class="nav_item group relative">
-                  <a href="#research"
-                    class="text-size-14 font-medium text-white-color capitalize py-10px md:py-15px lg:py-25px 2xl:py-30px relative z-0 after:w-0 after:h-0.5 after:bg-gradient-primary after:absolute after:right-0 hover:after:left-0 after:bottom-[10px] md:after:bottom-[15px] lg:after:bottom-[25px] after:transition-all after:duration-500 group-hover:after:w-full">
-                    Research
-                  </a>
-                </li>
-                <li class="nav_item group relative">
-                  <a href="collaboration-csr.html"
-                    class="text-size-14 font-medium text-white-color capitalize py-10px md:py-15px lg:py-25px 2xl:py-30px relative z-0 after:w-0 after:h-0.5 after:bg-gradient-primary after:absolute after:right-0 hover:after:left-0 after:bottom-[10px] md:after:bottom-[15px] lg:after:bottom-[25px] after:transition-all after:duration-500 group-hover:after:w-full">
-                    Collaborations
-                  </a>
-                </li>
-              </ul>
-            </nav>
-        </div>
-        <div class="footer-bottom">
-            <p>Copyright © 2025 Acuity DTS Innovation Labs. All Rights Reserved <span class="text-orange-color bold-text" style="font-size: 0.9rem"> | </span> 
-              <a href="https://www.acuitykp.com/" class="text-white-color hover:text-primary-color"
-              target="_blank">An Acuity Knowledge Partners Division</a>
-            </p>
-        </div>
+            </li>
+            <li class="nav_item group relative">
+              <a href="#aboutus"
+                class="text-size-14 font-medium text-white-color capitalize py-10px md:py-15px lg:py-25px 2xl:py-30px relative z-0 after:w-0 after:h-0.5 after:bg-gradient-primary after:absolute after:right-0 hover:after:left-0 after:bottom-[10px] md:after:bottom-[15px] lg:after:bottom-[25px] after:transition-all after:duration-500 group-hover:after:w-full">
+                About Us
+              </a>
+            </li>
+            <li class="nav_item group relative">
+              <a href="#innovations"
+                class="text-size-14 font-medium text-white-color capitalize py-10px md:py-15px lg:py-25px 2xl:py-30px relative z-0 after:w-0 after:h-0.5 after:bg-gradient-primary after:absolute after:right-0 hover:after:left-0 after:bottom-[10px] md:after:bottom-[15px] lg:after:bottom-[25px] after:transition-all after:duration-500 group-hover:after:w-full">
+                Innovations
+              </a>
+            </li>
+            <li class="nav_item group relative">
+              <a href="#team"
+                class="text-size-14 font-medium text-white-color capitalize py-10px md:py-15px lg:py-25px 2xl:py-30px relative z-0 after:w-0 after:h-0.5 after:bg-gradient-primary after:absolute after:right-0 hover:after:left-0 after:bottom-[10px] md:after:bottom-[15px] lg:after:bottom-[25px] after:transition-all after:duration-500 group-hover:after:w-full">
+                Team
+              </a>
+            </li>
+            <li class="nav_item group relative">
+              <a href="#skills"
+                class="text-size-14 font-medium text-white-color capitalize py-10px md:py-15px lg:py-25px 2xl:py-30px relative z-0 after:w-0 after:h-0.5 after:bg-gradient-primary after:absolute after:right-0 hover:after:left-0 after:bottom-[10px] md:after:bottom-[15px] lg:after:bottom-[25px] after:transition-all after:duration-500 group-hover:after:w-full">
+                Skills
+              </a>
+            </li>
+            <li class="nav_item group relative">
+              <a href="#testimonials"
+                class="text-size-14 font-medium text-white-color capitalize py-10px md:py-15px lg:py-25px 2xl:py-30px relative z-0 after:w-0 after:h-0.5 after:bg-gradient-primary after:absolute after:right-0 hover:after:left-0 after:bottom-[10px] md:after:bottom-[15px] lg:after:bottom-[25px] after:transition-all after:duration-500 group-hover:after:w-full">
+                Testimonials
+              </a>
+            </li>
+            <li class="nav_item group relative">
+              <a href="#research"
+                class="text-size-14 font-medium text-white-color capitalize py-10px md:py-15px lg:py-25px 2xl:py-30px relative z-0 after:w-0 after:h-0.5 after:bg-gradient-primary after:absolute after:right-0 hover:after:left-0 after:bottom-[10px] md:after:bottom-[15px] lg:after:bottom-[25px] after:transition-all after:duration-500 group-hover:after:w-full">
+                Research
+              </a>
+            </li>
+            <li class="nav_item group relative">
+              <a href="collaboration-csr.html"
+                class="text-size-14 font-medium text-white-color capitalize py-10px md:py-15px lg:py-25px 2xl:py-30px relative z-0 after:w-0 after:h-0.5 after:bg-gradient-primary after:absolute after:right-0 hover:after:left-0 after:bottom-[10px] md:after:bottom-[15px] lg:after:bottom-[25px] after:transition-all after:duration-500 group-hover:after:w-full">
+                Collaborations
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="footer-bottom">
+        <p>Copyright © 2025 Acuity DTS Innovation Labs. All Rights Reserved <span class="text-orange-color bold-text"
+            style="font-size: 0.9rem"> | </span>
+          <a href="https://www.acuitykp.com/" class="text-white-color hover:text-primary-color" target="_blank">An
+            Acuity Knowledge Partners Division</a>
+        </p>
+      </div>
     </div>
-</footer>
+  </footer>
 
   <!-- ====================================================== -->
   <!-- JSS here -->
@@ -1772,6 +1783,7 @@
   <script src="./assets/js/theme-controller.js"></script>
   <script src="./assets/js/main.js"></script>
   <script src="./assets/js/particles.js"></script>
+  <script src="./assets/js/vision-scroll.js"></script>
 </body>
 
 </html>

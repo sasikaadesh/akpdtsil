@@ -6,28 +6,32 @@
 
 /* Usage in your CSS */
 body {
-  font-family: 'Montserrat',Arial,Helvetica,sans-serif; 
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
   /* By default, text will use Regular (400) weight */
 }
 
 .light-text {
-  font-family: 'Montserrat',Arial,Helvetica,sans-serif; 
-  font-weight: 300; /* Light */
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  /* Light */
 }
 
 .regular-text {
-  font-family: 'Montserrat',Arial,Helvetica,sans-serif; 
-  font-weight: 400; /* Regular */
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  /* Regular */
 }
 
 .semibold-text {
-  font-family: 'Montserrat',Arial,Helvetica,sans-serif; 
-  font-weight: 600; /* Semi-Bold */
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  /* Semi-Bold */
 }
 
 .bold-text {
-  font-family: 'Montserrat',Arial,Helvetica,sans-serif; 
-  font-weight: 700; /* Bold */
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  /* Bold */
 }
 
 /*-----------------------------------------------------------------------------------
@@ -279,7 +283,7 @@ h5,
 h6 {
   font-size: inherit;
   font-weight: inherit;
-  font-family: 'Montserrat',Arial,Helvetica,sans-serif; 
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
   /* font-weight: 700; Bold */
 }
 
@@ -1681,23 +1685,23 @@ html {
 }
 
 .bg-gradient-primary {
-  background-image: linear-gradient(260deg, #192073 0%,  #087da9 100%);
+  background-image: linear-gradient(260deg, #192073 0%, #087da9 100%);
 }
 
 .bg-gradient-primary-innovations {
-  background-image: linear-gradient(260deg,  #087da9 0%, #192073 100%);
+  background-image: linear-gradient(260deg, #087da9 0%, #192073 100%);
 }
 
 .bg-gradient-primary-2 {
-  background-image: linear-gradient(161deg, #192073 0%,  #087da9 100%);
+  background-image: linear-gradient(161deg, #192073 0%, #087da9 100%);
 }
 
 .bg-gradient-primary-3 {
-  background-image: linear-gradient(to right,  #087da9 0,  #087da9 100%);
+  background-image: linear-gradient(to right, #087da9 0, #087da9 100%);
 }
 
 .bg-gradient-primary-4 {
-  background-image: linear-gradient(-45deg, #192073 11.52%,  #087da9 91.55%);
+  background-image: linear-gradient(-45deg, #192073 11.52%, #087da9 91.55%);
 }
 
 .bg-gradient-secondary {
@@ -1710,11 +1714,11 @@ html {
 } */
 
 .bg-gradient-secondary-2 {
-  background-image: linear-gradient(90deg,  #087da9 0%, #192073 110.61%);
+  background-image: linear-gradient(90deg, #087da9 0%, #192073 110.61%);
 }
 
 .bg-gradient-text-light {
-  background-image: linear-gradient(to right,  #087da9 0%, #192073 100%);
+  background-image: linear-gradient(to right, #087da9 0%, #192073 100%);
 }
 
 .bg-200 {
@@ -1743,7 +1747,7 @@ html {
 }
 
 .fill-primary-color {
-  fill:  #087da9;
+  fill: #087da9;
 }
 
 .object-cover {
@@ -2192,7 +2196,7 @@ html {
 .text-primary-color-light {
   --tw-text-opacity: 1;
   /* color: rgb(20 12 28 / var(--tw-text-opacity, 1)); */
-color: #212121;
+  color: #212121;
 }
 
 .text-seondary-color {
@@ -2231,6 +2235,10 @@ color: #212121;
   --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.bx-shdw {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, .1);
 }
 
 .outline-none {
@@ -2303,7 +2311,7 @@ color: #212121;
 
 :root {
   --body-color: #dddddd;
-  --primary-color:  #087da9;
+  --primary-color: #087da9;
   --secondary-color: #192073;
   --white-color: #ffffff;
   --off-white-color: #f6f3fc;
@@ -2360,23 +2368,28 @@ h6 {
 
 p {
   line-height: 1.5;
-  font-family: 'Montserrat',Arial,Helvetica,sans-serif; 
-  font-weight: 400; /* Regular */
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  /* Regular */
   font-size: 1em;
 }
 
-span, div {
-  font-family: 'Montserrat',Arial,Helvetica,sans-serif; 
+span,
+div {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
 }
 
-ul, li {
-  font-family: 'Montserrat',Arial,Helvetica,sans-serif; 
+ul,
+li {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
   font-size: 1em;
 }
 
-button, a {
-  font-family: 'Montserrat',Arial,Helvetica,sans-serif; 
-  font-weight: 600; /* Semi-Bold */
+button,
+a {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  /* Semi-Bold */
 }
 
 
@@ -2726,10 +2739,15 @@ img {
 .portfolio-box .portfolio-item {
   margin-bottom: 4%;
   width: 48%;
+  border-radius: 8px;
+}
+
+.portfolio-box .portfolio-item a {
+  border-radius: 8px;
 }
 
 .portfolio-item img {
-  border-radius: 6px;
+  border-radius: 8px;
 }
 
 .portfolio-box:before {
@@ -3713,12 +3731,12 @@ body.loaded {
 
 .after\:bg-gradient-circle::after {
   content: var(--tw-content);
-  background-image: linear-gradient(260deg,  #087da9 0%, rgba(115, 67, 210, 0) 100%);
+  background-image: linear-gradient(260deg, #087da9 0%, rgba(115, 67, 210, 0) 100%);
 }
 
 .after\:bg-gradient-primary::after {
   content: var(--tw-content);
-  background-image: linear-gradient(260deg, #192073 0%,  #087da9 100%);
+  background-image: linear-gradient(260deg, #192073 0%, #087da9 100%);
 }
 
 .after\:opacity-0::after {
@@ -4036,7 +4054,7 @@ body.loaded {
 }
 
 .dark\:bg-gradient-text:is(.dark *) {
-  background-image: linear-gradient(to right,  #087da9 0%, #ffffff 100%);
+  background-image: linear-gradient(to right, #087da9 0%, #ffffff 100%);
 }
 
 .dark\:text-body-color:is(.dark *) {
@@ -5219,11 +5237,6 @@ button.theme-controller {
 }
 
 /* Footer styles */
-/* ============================== Footer ============================== */
-
-/* .footer {
-  background-color: #333;
-} */
 
 footer {
   background: url(https://www.acuitykp.com/wp-content/themes/maks/images/Frame_1140.svg) center center no-repeat;
@@ -5276,15 +5289,242 @@ footer {
 
 @media (max-width: 768px) {
   .footer-top {
-      flex-direction: column;
-      align-items: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
   }
-  
+
   .footer-menu ul {
-      margin-top: 1rem;
+    margin-top: 1rem;
   }
-  
+
   .footer-menu li {
-      margin-bottom: 0.5rem;
+    margin-bottom: 0.5rem;
   }
+}
+
+/* Visison Mission Slide */
+
+.slider-container {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+
+.slider {
+  display: flex;
+  width: 200%;
+  transition: transform 0.8s cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+.slide {
+  flex: 0 0 50%;
+  padding: 4rem 3rem;
+  background-color: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(10px);
+  position: relative;
+  overflow: hidden;
+  min-height: 300px;
+  /* Ensure consistent height */
+  border-radius: 8px;
+}
+
+.slide-content {
+  position: relative;
+  z-index: 2;
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.8s ease;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.slide.active .slide-content {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.slider-container h2 {
+  margin-bottom: 1.8rem;
+  position: relative;
+  display: inline-block;
+}
+
+
+.slider-container h2::after {
+  content: '';
+  position: absolute;
+  width: 70%;
+  height: 4px;
+  background: linear-gradient(90deg, #283593, #5c6bc0);
+  bottom: -10px;
+  left: 15%;
+  border-radius: 2px;
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform 1s ease 0.5s;
+}
+
+.slide.active h2::after {
+  transform: scaleX(1);
+}
+
+.slider-container p {
+  font-size: 1.25rem;
+  line-height: 1.8;
+  margin-top: 2rem;
+  max-width: 800px;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 1s ease 0.7s;
+  text-align: center;
+}
+
+.slide.active p {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.bg-shape {
+  position: absolute;
+  border-radius: 0%;
+  opacity: 0.1;
+  z-index: 1;
+  filter: blur(30px);
+  transition: all 1.5s ease;
+}
+
+.shape1 {
+  width: 300px;
+  height: 300px;
+  background: linear-gradient(45deg, #3f51b5, #7986cb);
+  top: -80px;
+  right: -80px;
+  transform: scale(0);
+}
+
+.shape2 {
+  width: 200px;
+  height: 200px;
+  background: linear-gradient(45deg, #303f9f, #5c6bc0);
+  bottom: -60px;
+  left: -60px;
+  transform: scale(0);
+}
+
+.slide.active .bg-shape {
+  transform: scale(1);
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1.5rem;
+  position: relative;
+}
+
+.dot {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background-color: rgba(40, 53, 147, 0.2);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.dot.active {
+  background-color: #283593;
+  transform: scale(1.2);
+}
+
+.dot:hover {
+  background-color: rgba(40, 53, 147, 0.5);
+}
+
+.dot::before {
+  content: '';
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 0.3s ease;
+}
+
+.dot.active::before {
+  border-color: rgba(40, 53, 147, 0.3);
+  animation: pulse 2s infinite;
+}
+
+/* Progress bar for auto-scroll */
+.progress-bar {
+  display: none;
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  height: 3px;
+  width: 0%;
+  background: linear-gradient(90deg, #3f51b5, #7986cb);
+  transition: width 3s linear;
+  border-radius: 1px;
+}
+
+.title-label {
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #283593;
+  background-color: white;
+  padding: 0.35rem 1rem;
+  border-radius: 12px;
+  opacity: 0;
+  transition: all 0.3s ease;
+  z-index: 5;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dot:hover .title-label {
+  opacity: 1;
+  top: -40px;
+}
+
+@keyframes pulse {
+  0% {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 0.7;
+  }
+
+  50% {
+    transform: translate(-50%, -50%) scale(1.2);
+    opacity: 0.3;
+  }
+
+  100% {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 0.7;
+  }
+}
+
+@media (max-width: 768px) {
+  .slide {
+    padding: 3rem 2rem;
+  }
+}
+
+.project-img-bt {
+  border-top: solid 3px #ebebeb;
+  padding-top: 10px;
+  background: #ffffff;
 }
